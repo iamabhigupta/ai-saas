@@ -1,11 +1,12 @@
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 
-export default function Home() {
+const LandingPage = () => {
   return (
     <>
-      <p className="text-xl text-red-500">Abhishek</p>
+      <p className="text-xl text-red-500">Abhishek (Unprotected)</p>
       <Button variant="secondary">Abhishek</Button>
     </>
   );
-}
+};
+
+export default LandingPage;
